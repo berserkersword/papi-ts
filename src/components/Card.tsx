@@ -35,6 +35,7 @@ const Card = (props: { res: Responce, setRes: React.Dispatch<React.SetStateActio
                 console.error(error);
             });
         }
+        window.scrollTo({top:0,behavior:'smooth'})
     };
 
     const data = props.res.results;
