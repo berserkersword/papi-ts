@@ -65,7 +65,7 @@ const Card = (props: { res: Responce, setRes: React.Dispatch<React.SetStateActio
                 }
             </div>
             {/* Pagination */}
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Page navigation example" className="w-full flex items-center justify-center m-2 p-2">
                 <ul className="inline-flex items-center -space-x-px">
                     {
                         props.res.previous ?
